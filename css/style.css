@@ -1,3 +1,11 @@
+html {
+    height: 100vh;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+}
 h1 {
     font-family:monospace;
     font-size: 48pt;
@@ -5,12 +13,13 @@ h1 {
     color: #DDD819;
 }
 header {
-    background-color:#ffffff;
+    background-color:#3C6543;
     height: 109px;
-    background-image: url("../images/yellow-splotch.png");
+    background-image: url("../images/yellow-splotch-yet-again.png");
     background-size:contain;
     background-repeat: no-repeat;
     background-position:left;
+    color: white;
 }
 .inline-block {
     display: inline-block;
@@ -28,20 +37,24 @@ header {
 .title {
     width: 32%;
     padding: 0 1%;
+    color:black;
 }
 nav {
     display: inline-block;
     width: 44%;
     padding: 0;
+    margin:0;
     text-align:right;
 }
 .headerNav {
-    width: 50%;
+    width: 75%;
     margin-left: auto;
+    padding: 2% 0 1% 0;
 }
 .headerNav li {
     display: inline-block;
-    padding: 1% 3%;
+    padding: 2% 5%;
+    text-align: center;
 }
 #boxes {
     display: table;
@@ -50,16 +63,16 @@ nav {
 .column {
     float: left;
     height: 915px;
-    width: 1440px;
+    width: auto;
     padding: 0;
 }
 #sideBar {
     width: 25%;
-    background-color:#ffffff;
+    background-color: #3C6543;
     position: relative;
+    color: white;
 }
 .profileBox {
-    border: 1px solid #E5E5E5;
     height: 260px;
 }
 .profile {
@@ -73,17 +86,17 @@ nav {
     padding: 7% 0;
 }
 .contact {
-    border: 1px solid #E5E5E5;
+    overflow-wrap: break-word;
 }
 .skills {
-    border: 1px solid #E5E5E5;
+    border: 1px solid black;
 }
 .tools {
-    border: 1px solid #E5E5E5;
+    border: 1px solid black;
 }
 #heroImg {
     width: 75%;
-    background-image: url("../images/self-portrait-figma.png"), url("../images/two-splotches.png");
+    background-image: url("../images/self-portrait-figma.png"), url("../images/two-splotches-7.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
@@ -94,11 +107,11 @@ nav {
     padding: 1% 50% 1% 5%;
 }
 #bioBox {
-    padding: 1% 55% 1% 5%;
+    padding: 3% 55% 1% 5%;
 }
 #bio {
     font-size: 32pt;
-    color: #ffffff;
+    color: white;
 }
 .buttonBox {
     margin: 5% 38% 10% 12%;
