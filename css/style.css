@@ -2,6 +2,7 @@ h1 {
     font-family:monospace;
     font-size: 48pt;
     font-style: oblique;
+    color: #DDD819;
 }
 header {
     background-color:#ffffff;
@@ -82,10 +83,10 @@ nav {
 }
 #heroImg {
     width: 75%;
-    background-image: url("../images/self-portrait-figma.png"), url("../images/magenta-splotch.png");
+    background-image: url("../images/self-portrait-figma.png"), url("../images/two-splotches.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #E5E5E5;
+    background-color: black;
     background-position: center;
 }
 #hi {
@@ -97,6 +98,7 @@ nav {
 }
 #bio {
     font-size: 32pt;
+    color: #ffffff;
 }
 .buttonBox {
     margin: 5% 38% 10% 12%;
