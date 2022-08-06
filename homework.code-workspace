@@ -2,6 +2,12 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../18-week/UX_UI_HW_18"
+		},
+		{
+			"path": "../../20-week/UX_UI_HW_20"
 		}
 	],
 	"settings": {}
